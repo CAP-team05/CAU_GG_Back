@@ -1,3 +1,4 @@
 .DS*
 temp/
 __cache__/
+config.py

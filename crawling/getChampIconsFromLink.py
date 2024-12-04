@@ -4,7 +4,7 @@ import requests
 # URL 목록 파일 경로
 file_path = r"C:/Users/ahnjh/Documents/GitHub/CAU_GG_Back/crawling/Cleaned_LoL_Champions.txt"
 # 이미지를 저장할 폴더 경로
-save_folder = r"C:/Users/ahnjh/Documents/GitHub/CAU_GG_Back/crawling/championBGs"
+save_folder = r"C:/Users/ahnjh/Documents/GitHub/CAU_GG_Back/crawling/asdf"
 
 
 # URL에서 이미지 다운로드 함수

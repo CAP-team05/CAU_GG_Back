@@ -1,0 +1,682 @@
+[
+    {
+        "korean_name": "empty",
+        "english_name": "empty"
+    },
+    {
+        "korean_name": "가렌",
+        "english_name": "Garen"
+    },
+    {
+        "korean_name": "갈리오",
+        "english_name": "Galio"
+    },
+    {
+        "korean_name": "갱플랭크",
+        "english_name": "Gangplank"
+    },
+    {
+        "korean_name": "그라가스",
+        "english_name": "Gragas"
+    },
+    {
+        "korean_name": "그레이브즈",
+        "english_name": "Graves"
+    },
+    {
+        "korean_name": "그웬",
+        "english_name": "Gwen"
+    },
+    {
+        "korean_name": "나르",
+        "english_name": "Gnar"
+    },
+    {
+        "korean_name": "나미",
+        "english_name": "Nami"
+    },
+    {
+        "korean_name": "나서스",
+        "english_name": "Nasus"
+    },
+    {
+        "korean_name": "나피리",
+        "english_name": "Naafiri"
+    },
+    {
+        "korean_name": "노틸러스",
+        "english_name": "Nautilus"
+    },
+    {
+        "korean_name": "녹턴",
+        "english_name": "Nocturne"
+    },
+    {
+        "korean_name": "누누",
+        "english_name": "Nunu"
+    },
+    {
+        "korean_name": "니달리",
+        "english_name": "Nidalee"
+    },
+    {
+        "korean_name": "니코",
+        "english_name": "Neeko"
+    },
+    {
+        "korean_name": "닐라",
+        "english_name": "Nilah"
+    },
+    {
+        "korean_name": "다리우스",
+        "english_name": "Darius"
+    },
+    {
+        "korean_name": "다이애나",
+        "english_name": "Diana"
+    },
+    {
+        "korean_name": "드레이븐",
+        "english_name": "Draven"
+    },
+    {
+        "korean_name": "라이즈",
+        "english_name": "Ryze"
+    },
+    {
+        "korean_name": "라칸",
+        "english_name": "Rakan"
+    },
+    {
+        "korean_name": "람머스",
+        "english_name": "Rammus"
+    },
+    {
+        "korean_name": "럭스",
+        "english_name": "Lux"
+    },
+    {
+        "korean_name": "럼블",
+        "english_name": "Rumble"
+    },
+    {
+        "korean_name": "레나타",
+        "english_name": "Renata Glasc"
+    },
+    {
+        "korean_name": "레넥톤",
+        "english_name": "Renekton"
+    },
+    {
+        "korean_name": "레오나",
+        "english_name": "Leona"
+    },
+    {
+        "korean_name": "렉사이",
+        "english_name": "Rek'Sai"
+    },
+    {
+        "korean_name": "렐",
+        "english_name": "Rell"
+    },
+    {
+        "korean_name": "렝가",
+        "english_name": "Rengar"
+    },
+    {
+        "korean_name": "루시안",
+        "english_name": "Lucian"
+    },
+    {
+        "korean_name": "룰루",
+        "english_name": "Lulu"
+    },
+    {
+        "korean_name": "르블랑",
+        "english_name": "LeBlanc"
+    },
+    {
+        "korean_name": "리븐",
+        "english_name": "Riven"
+    },
+    {
+        "korean_name": "리산드라",
+        "english_name": "Lissandra"
+    },
+    {
+        "korean_name": "리신",
+        "english_name": "Lee Sin"
+    },
+    {
+        "korean_name": "릴리아",
+        "english_name": "Lillia"
+    },
+    {
+        "korean_name": "마스터이",
+        "english_name": "Master Yi"
+    },
+    {
+        "korean_name": "마오카이",
+        "english_name": "Maokai"
+    },
+    {
+        "korean_name": "말자하",
+        "english_name": "Malzahar"
+    },
+    {
+        "korean_name": "말파이트",
+        "english_name": "Malphite"
+    },
+    {
+        "korean_name": "모데카이저",
+        "english_name": "Mordekaiser"
+    },
+    {
+        "korean_name": "모르가나",
+        "english_name": "Morgana"
+    },
+    {
+        "korean_name": "문도",
+        "english_name": "Dr. Mundo"
+    },
+    {
+        "korean_name": "미스포츈",
+        "english_name": "Miss Fortune"
+    },
+    {
+        "korean_name": "밀리오",
+        "english_name": "Milio"
+    },
+    {
+        "korean_name": "바드",
+        "english_name": "Bard"
+    },
+    {
+        "korean_name": "바루스",
+        "english_name": "Varus"
+    },
+    {
+        "korean_name": "바이",
+        "english_name": "Vi"
+    },
+    {
+        "korean_name": "베이가",
+        "english_name": "Veigar"
+    },
+    {
+        "korean_name": "베인",
+        "english_name": "Vayne"
+    },
+    {
+        "korean_name": "벡스",
+        "english_name": "Vex"
+    },
+    {
+        "korean_name": "벨베스",
+        "english_name": "Bel'Veth"
+    },
+    {
+        "korean_name": "벨코즈",
+        "english_name": "Vel'Koz"
+    },
+    {
+        "korean_name": "볼리베어",
+        "english_name": "Volibear"
+    },
+    {
+        "korean_name": "브라움",
+        "english_name": "Braum"
+    },
+    {
+        "korean_name": "브라이어",
+        "english_name": "Briar"
+    },
+    {
+        "korean_name": "브랜드",
+        "english_name": "Brand"
+    },
+    {
+        "korean_name": "블라디미르",
+        "english_name": "Vladimir"
+    },
+    {
+        "korean_name": "블츠",
+        "english_name": "Blitzcrank"
+    },
+    {
+        "korean_name": "비에고",
+        "english_name": "Viego"
+    },
+    {
+        "korean_name": "빅토르",
+        "english_name": "Viktor"
+    },
+    {
+        "korean_name": "뽀삐",
+        "english_name": "Poppy"
+    },
+    {
+        "korean_name": "사미라",
+        "english_name": "Samira"
+    },
+    {
+        "korean_name": "사이온",
+        "english_name": "Sion"
+    },
+    {
+        "korean_name": "사일러스",
+        "english_name": "Sylas"
+    },
+    {
+        "korean_name": "샤코",
+        "english_name": "Shaco"
+    },
+    {
+        "korean_name": "세나",
+        "english_name": "Senna"
+    },
+    {
+        "korean_name": "세라핀",
+        "english_name": "Seraphine"
+    },
+    {
+        "korean_name": "세주아니",
+        "english_name": "Sejuani"
+    },
+    {
+        "korean_name": "세트",
+        "english_name": "Sett"
+    },
+    {
+        "korean_name": "소나",
+        "english_name": "Sona"
+    },
+    {
+        "korean_name": "소라카",
+        "english_name": "Soraka"
+    },
+    {
+        "korean_name": "쉔",
+        "english_name": "Shen"
+    },
+    {
+        "korean_name": "쉬바나",
+        "english_name": "Shyvana"
+    },
+    {
+        "korean_name": "스몰더",
+        "english_name": "Smolder"
+    },
+    {
+        "korean_name": "스웨인",
+        "english_name": "Swain"
+    },
+    {
+        "korean_name": "스카너",
+        "english_name": "Skarner"
+    },
+    {
+        "korean_name": "시비르",
+        "english_name": "Sivir"
+    },
+    {
+        "korean_name": "신드라",
+        "english_name": "Syndra"
+    },
+    {
+        "korean_name": "신지드",
+        "english_name": "Singed"
+    },
+    {
+        "korean_name": "신짜오",
+        "english_name": "Xin Zhao"
+    },
+    {
+        "korean_name": "쓰레쉬",
+        "english_name": "Thresh"
+    },
+    {
+        "korean_name": "아리",
+        "english_name": "Ahri"
+    },
+    {
+        "korean_name": "아무무",
+        "english_name": "Amumu"
+    },
+    {
+        "korean_name": "아우솔",
+        "english_name": "Aurelion Sol"
+    },
+    {
+        "korean_name": "아이번",
+        "english_name": "Ivern"
+    },
+    {
+        "korean_name": "아지르",
+        "english_name": "Azir"
+    },
+    {
+        "korean_name": "아칼리",
+        "english_name": "Akali"
+    },
+    {
+        "korean_name": "아크샨",
+        "english_name": "Akshan"
+    },
+    {
+        "korean_name": "아트록스",
+        "english_name": "Aatrox"
+    },
+    {
+        "korean_name": "아펠리오스",
+        "english_name": "Aphelios"
+    },
+    {
+        "korean_name": "알리스타",
+        "english_name": "Alistar"
+    },
+    {
+        "korean_name": "암베사",
+        "english_name": "Ambessa"
+    },
+    {
+        "korean_name": "애니",
+        "english_name": "Annie"
+    },
+    {
+        "korean_name": "애니비아",
+        "english_name": "Anivia"
+    },
+    {
+        "korean_name": "애쉬",
+        "english_name": "Ashe"
+    },
+    {
+        "korean_name": "야스오",
+        "english_name": "Yasuo"
+    },
+    {
+        "korean_name": "에코",
+        "english_name": "Ekko"
+    },
+    {
+        "korean_name": "엘리스",
+        "english_name": "Elise"
+    },
+    {
+        "korean_name": "오공",
+        "english_name": "Wukong"
+    },
+    {
+        "korean_name": "오로라",
+        "english_name": "Aurora"
+    },
+    {
+        "korean_name": "오른",
+        "english_name": "Ornn"
+    },
+    {
+        "korean_name": "오리아나",
+        "english_name": "Orianna"
+    },
+    {
+        "korean_name": "올라프",
+        "english_name": "Olaf"
+    },
+    {
+        "korean_name": "요네",
+        "english_name": "Yone"
+    },
+    {
+        "korean_name": "요릭",
+        "english_name": "Yorick"
+    },
+    {
+        "korean_name": "우디르",
+        "english_name": "Udyr"
+    },
+    {
+        "korean_name": "우르곳",
+        "english_name": "Urgot"
+    },
+    {
+        "korean_name": "워윅",
+        "english_name": "Warwick"
+    },
+    {
+        "korean_name": "유미",
+        "english_name": "Yuumi"
+    },
+    {
+        "korean_name": "이렐리아",
+        "english_name": "Irelia"
+    },
+    {
+        "korean_name": "이블린",
+        "english_name": "Evelynn"
+    },
+    {
+        "korean_name": "이즈리얼",
+        "english_name": "Ezreal"
+    },
+    {
+        "korean_name": "일라오이",
+        "english_name": "Illaoi"
+    },
+    {
+        "korean_name": "자르반",
+        "english_name": "Jarvan IV"
+    },
+    {
+        "korean_name": "자야",
+        "english_name": "Xayah"
+    },
+    {
+        "korean_name": "자이라",
+        "english_name": "Zyra"
+    },
+    {
+        "korean_name": "자크",
+        "english_name": "Zac"
+    },
+    {
+        "korean_name": "잔나",
+        "english_name": "Janna"
+    },
+    {
+        "korean_name": "잭스",
+        "english_name": "Jax"
+    },
+    {
+        "korean_name": "제드",
+        "english_name": "Zed"
+    },
+    {
+        "korean_name": "제라스",
+        "english_name": "Xerath"
+    },
+    {
+        "korean_name": "제리",
+        "english_name": "Zeri"
+    },
+    {
+        "korean_name": "제이스",
+        "english_name": "Jayce"
+    },
+    {
+        "korean_name": "조이",
+        "english_name": "Zoe"
+    },
+    {
+        "korean_name": "직스",
+        "english_name": "Ziggs"
+    },
+    {
+        "korean_name": "진",
+        "english_name": "Jhin"
+    },
+    {
+        "korean_name": "질리언",
+        "english_name": "Zilean"
+    },
+    {
+        "korean_name": "징크스",
+        "english_name": "Jinx"
+    },
+    {
+        "korean_name": "초가스",
+        "english_name": "Cho'Gath"
+    },
+    {
+        "korean_name": "카르마",
+        "english_name": "Karma"
+    },
+    {
+        "korean_name": "카밀",
+        "english_name": "Camille"
+    },
+    {
+        "korean_name": "카사딘",
+        "english_name": "Kassadin"
+    },
+    {
+        "korean_name": "카서스",
+        "english_name": "Karthus"
+    },
+    {
+        "korean_name": "카시오페아",
+        "english_name": "Cassiopeia"
+    },
+    {
+        "korean_name": "카이사",
+        "english_name": "Kai'Sa"
+    },
+    {
+        "korean_name": "카직스",
+        "english_name": "Kha'Zix"
+    },
+    {
+        "korean_name": "카타리나",
+        "english_name": "Katarina"
+    },
+    {
+        "korean_name": "칼리스타",
+        "english_name": "Kalista"
+    },
+    {
+        "korean_name": "케넨",
+        "english_name": "Kennen"
+    },
+    {
+        "korean_name": "케이틀린",
+        "english_name": "Caitlyn"
+    },
+    {
+        "korean_name": "케인",
+        "english_name": "Kayn"
+    },
+    {
+        "korean_name": "케일",
+        "english_name": "Kayle"
+    },
+    {
+        "korean_name": "코그모",
+        "english_name": "Kog'Maw"
+    },
+    {
+        "korean_name": "코르키",
+        "english_name": "Corki"
+    },
+    {
+        "korean_name": "퀸",
+        "english_name": "Quinn"
+    },
+    {
+        "korean_name": "크산테",
+        "english_name": "K'Sante"
+    },
+    {
+        "korean_name": "클레드",
+        "english_name": "Kled"
+    },
+    {
+        "korean_name": "키아나",
+        "english_name": "Qiyana"
+    },
+    {
+        "korean_name": "킨드레드",
+        "english_name": "Kindred"
+    },
+    {
+        "korean_name": "타릭",
+        "english_name": "Taric"
+    },
+    {
+        "korean_name": "탈론",
+        "english_name": "Talon"
+    },
+    {
+        "korean_name": "탈리야",
+        "english_name": "Taliyah"
+    },
+    {
+        "korean_name": "탐켄치",
+        "english_name": "Tahm Kench"
+    },
+    {
+        "korean_name": "트런들",
+        "english_name": "Trundle"
+    },
+    {
+        "korean_name": "트리스타나",
+        "english_name": "Tristana"
+    },
+    {
+        "korean_name": "트린다미어",
+        "english_name": "Tryndamere"
+    },
+    {
+        "korean_name": "트위치",
+        "english_name": "Twitch"
+    },
+    {
+        "korean_name": "트페",
+        "english_name": "Twisted Fate"
+    },
+    {
+        "korean_name": "티모",
+        "english_name": "Teemo"
+    },
+    {
+        "korean_name": "파이크",
+        "english_name": "Pyke"
+    },
+    {
+        "korean_name": "판테온",
+        "english_name": "Pantheon"
+    },
+    {
+        "korean_name": "피들스틱",
+        "english_name": "Fiddlesticks"
+    },
+    {
+        "korean_name": "피오라",
+        "english_name": "Fiora"
+    },
+    {
+        "korean_name": "피즈",
+        "english_name": "Fizz"
+    },
+    {
+        "korean_name": "하이머딩거",
+        "english_name": "Heimerdinger"
+    },
+    {
+        "korean_name": "헤카림",
+        "english_name": "Hecarim"
+    },
+    {
+        "korean_name": "흐웨이",
+        "english_name": "Hwei"
+    }
+]

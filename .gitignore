@@ -1,3 +1,7 @@
 .DS*
 temp/
 __cache__/
+config.py
+*DB*
+userDB.json
+__pycache__/

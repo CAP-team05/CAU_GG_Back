@@ -1,0 +1,52 @@
+[
+    {
+        "user name": "근육런-kor1",
+        "level": "522",
+        "solo": "platinum 4 - 55LP",
+        "flex": "emerald 3 - 81LP",
+        "season_most": [
+            {
+                "name": "Rakan",
+                "games": "11 games",
+                "kda": "2.92:1 ",
+                "win rate": "82%"
+            },
+            {
+                "name": "Poppy",
+                "games": "8 games",
+                "kda": "3.36:1 ",
+                "win rate": "50%"
+            },
+            {
+                "name": "Viego",
+                "games": "6 games",
+                "kda": "3.79:1 ",
+                "win rate": "50%"
+            },
+            {
+                "name": "Lee Sin",
+                "games": "5 games",
+                "kda": "2.63:1 ",
+                "win rate": "60%"
+            },
+            {
+                "name": "Pyke",
+                "games": "4 games",
+                "kda": "1.82:1 ",
+                "win rate": "50%"
+            },
+            {
+                "name": "Sylas",
+                "games": "3 games",
+                "kda": "1.45:1 ",
+                "win rate": "67%"
+            },
+            {
+                "name": "Amumu",
+                "games": "3 games",
+                "kda": "1.61:1 ",
+                "win rate": "33%"
+            }
+        ]
+    }
+]

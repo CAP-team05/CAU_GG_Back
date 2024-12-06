@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, request, Response
+from flask import Flask, jsonify, render_template, request, Response, send_from_directory
 from flask_mail import Mail, Message
 from flask_cors import CORS
 import json
@@ -62,6 +62,12 @@ def masteries(name):
         response=json.dumps(info, ensure_ascii = False, indent=4),
         mimetype='application/json'
     )
+
+# 챔피언 이미지 불러오기 (개발 중)
+@app.route('/champion/<name>', methods=['GET'])
+def champion_image(name):
+    # print('championBGs/{}.png'.format('Azir'))
+    return send_from_directory('static', f'championBGs/{name}.png')
 
 
 @app.route('/register', methods=['POST'])

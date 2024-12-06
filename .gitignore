@@ -1,6 +1,6 @@
 .DS*
 temp/
-__cache__/
+__*cache__/
 config.py
 *DB*
 userDB.json

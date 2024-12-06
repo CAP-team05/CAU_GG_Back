@@ -6,6 +6,8 @@ import tier, summoner
 import config as config
 from functools import wraps
 import userHandler as userHandler
+import communityHandler as cH
+from datetime import datetime
 
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
@@ -116,6 +118,7 @@ def verify():
     return {"message": "User verified successfully"}
         
 @app.route('/login', methods=['POST'])
+@as_json
 def login():
     data = request.json
     email = data['email']
@@ -125,7 +128,29 @@ def login():
         return {"message": "Login successful", "nickname": userHandler.getNickname(email)}
     else:
         return {"message": "Login failed", "nickname": None}
+
+
+@app.route('/newpost', methods=['POST'])
+@as_json
+def newpost():
+    # raw_data = request.get_data(as_text=True).encode('utf-8').decode('utf-8')
+    # data = json.loads(raw_data)
+    data = request.json
+    nickname = data['nickname']
+    title = data['title']
+    content = data['content']
     
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    if cH.insertUser(nickname, title, content, timestamp):
+        return {"message": "Post created successfully"}
+    else:
+        return {"message": "Post creation failed"}
+    
+@app.route('/postlist', methods=['GET'])
+@as_json
+def postlist():
+    return cH.getPostList()
     
 # app 실행
 if __name__ == '__main__':

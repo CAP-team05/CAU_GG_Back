@@ -6,6 +6,7 @@ import tier, summoner
 import config as config
 from functools import wraps
 import userHandler as userHandler
+import rankingHandler as rankingHandler
 import communityHandler as cH
 from datetime import datetime
 
@@ -163,6 +164,11 @@ def newpost():
 def postlist():
     return cH.getPostList()
     
+@app.route('/ranking/<major>', methods=['GET'])
+@as_json
+def ranking(major):
+    return rankingHandler.ranking(major)
+
 # app 실행
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)

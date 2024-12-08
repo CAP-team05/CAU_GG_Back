@@ -69,7 +69,7 @@ def ranking(major: str):
     return sorted_users
 
 
-ranked_users = ranking("소프트")
+# ranked_users = ranking("소프트")
 
-for idx, user in enumerate(ranked_users, start=1):
-    print(f"Rank {idx}: {user['nickname']} ({user['solo_rank']})")
+# for idx, user in enumerate(ranked_users, start=1):
+#     print(f"Rank {idx}: {user['nickname']} ({user['solo_rank']})")

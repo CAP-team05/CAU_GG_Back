@@ -45,10 +45,13 @@ def tiers(pos):
         mimetype='application/json'
     )
 
-# 소환사 계정 정보
+# 소환사 계정 정보 태그는 #말고 - 사용
 @app.route('/summoner/<name>')
 def summoners(name):
+    name = name.replace('-','#')
     info = summoner.getSummonerInfo(fullname = name)
+    with open(f'api/user/{name}.json', 'w') as f:
+        json.dump(info, f, ensure_ascii=False, indent=4)
     return app.response_class(
         response=json.dumps(info, ensure_ascii = False, indent=4),
         mimetype='application/json'
@@ -77,8 +80,9 @@ def register():
     email = data['email']
     password = data['password']
     nickname = data['nickname']
+    major = data['major']
     print(data)
-    userHandler.insertUser(email, password, nickname, False)
+    userHandler.insertUser(email, password, nickname, major, False)
 
     try:
         verification_link = f"http://127.0.0.1:8080/verify?email={email}"
@@ -121,6 +125,7 @@ def send_verification_email(recipient_email, verification_link):
 def verify():
     email = request.args.get('email')
     userHandler.verifyUser(email)
+    summoner.summonersForEmail(email)
     return {"message": "User verified successfully"}
         
 @app.route('/login', methods=['POST'])
@@ -152,7 +157,7 @@ def newpost():
         return {"message": "Post created successfully"}
     else:
         return {"message": "Post creation failed"}
-    
+
 @app.route('/postlist', methods=['GET'])
 @as_json
 def postlist():

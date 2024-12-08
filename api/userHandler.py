@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 userDB = 'api/userDB.json'
     
-def insertUser(email, password, nickname, verified):
+def insertUser(email, password, nickname, major, verified):
     try:
         with open(userDB, 'r') as f:
             all_users = json.load(f)
@@ -17,11 +17,12 @@ def insertUser(email, password, nickname, verified):
     all_users[email] = {
         'password': password,
         'nickname': nickname,
+        'major': major,
         'verified': verified
     }
     
     with open(userDB, 'w') as f:
-        json.dump(all_users, f, indent=4)
+        json.dump(all_users, f, ensure_ascii=False, indent=4)
         
 def checkVerify(email):
     try:
@@ -47,7 +48,7 @@ def verifyUser(email):
     if (email in all_users):
         all_users[email]['verified'] = True
         with open(userDB, 'w') as f:
-            json.dump(all_users, f, indent=4)
+            json.dump(all_users, f, ensure_ascii=False, indent=4)
             
 def checkUser(email, password):
     try:
@@ -57,9 +58,11 @@ def checkUser(email, password):
         all_users = {}
     
     if (email in all_users):
+        print(f"email ${email}")
         if(all_users[email]['verified'] == False):
             return False
-        return all_users[email]['password'] == password
+        if(all_users[email]['password'] == password):
+            return all_users[email]['nickname']
 
 def getNickname(email):
     try:

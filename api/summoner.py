@@ -7,7 +7,7 @@ def getMasteryList(fullname):
     url = f'https://www.op.gg/summoners/kr/{fullname}/mastery'
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
-    sel = '#__next > div.container--desktop.css-wqvk7l.e4ueydy0'
+    sel = "#content-container > div.box--desktop.dashboard--loading.css-7ruavw.erdn3wx2"
     soup = str(soup.select(sel))
 
     champ_list = soup.split('<strong class="champion-name">')[1:]
@@ -70,3 +70,13 @@ def getSummonerInfo(fullname):
         temp_list.append(temp_dict)
 
     return temp_list
+
+def summonersForEmail(email):
+    with open('api/userDB.json', 'r') as f:
+        all_users = json.load(f)
+    name = all_users[email]['nickname']
+    print(name)
+    name = name.replace('-','#')
+    info = getSummonerInfo(fullname = name)
+    with open(f'api/user/{name}.json', 'w') as f:
+        json.dump(info, f, ensure_ascii=False, indent=4)

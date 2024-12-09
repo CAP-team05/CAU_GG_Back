@@ -8,14 +8,15 @@ solo_rank_priority = [
     "platinum", "gold", "silver", "iron", "unranked"
 ]
 
-def parse_solo_rank(solo: str) -> tuple:
+def parse_solo_rank(solo):
     """
     Parse the solo rank string and return a tuple for sorting.
     Args:
         solo (str): The solo rank string (e.g., "emerald 1 - 75LP").
     Returns:
-        tuple: (rank_priority, division, LP), where rank_priority is an index,
-               division is an integer (lower is better), and LP is an integer.
+        tuple: (rank_priority, division, -LP), where rank_priority is an index,
+               division is an integer (lower is better), and LP is negative
+               to prioritize higher LP for sorting.
     """
     try:
         # Extract rank, division, and LP
@@ -24,11 +25,14 @@ def parse_solo_rank(solo: str) -> tuple:
         rank_priority = solo_rank_priority.index(rank.lower())
         division = int(division)  # Convert division to integer
         lp = int(lp.replace("LP", ""))  # Convert LP to integer
-        return rank_priority, division, lp
+        
+        # Return tuple for sorting: lower rank_priority and division are better, higher LP is better
+        return rank_priority, division, -lp
     except Exception:
         # Handle unknown or invalid rank formats
-        return len(solo_rank_priority), 5, 0  # Default to lowest priority
-
+        return len(solo_rank_priority), 5, 0  # Default to the lowest priority
+    
+    
 def ranking(major: str):
     """
     Rank users of the same major based on their solo rank.

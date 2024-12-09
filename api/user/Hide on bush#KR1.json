@@ -1,0 +1,104 @@
+[
+    {
+        "user name": "Hide on bush-KR1",
+        "level": "786",
+        "solo": "diamond 3 - 23LP",
+        "flex": "Unranked",
+        "season_most": [
+            {
+                "name": "Sylas",
+                "games": "1 games",
+                "kda": "6.6:1 ",
+                "win rate": "100%"
+            },
+            {
+                "name": "Tristana",
+                "games": "1 games",
+                "kda": "5.5:1 ",
+                "win rate": "100%"
+            }
+        ],
+        "mastery": [
+            {
+                "rank": 1,
+                "champion": "LeBlanc",
+                "mastery": "597,658"
+            },
+            {
+                "rank": 2,
+                "champion": "Azir",
+                "mastery": "316,166"
+            },
+            {
+                "rank": 3,
+                "champion": "Syndra",
+                "mastery": "269,087"
+            },
+            {
+                "rank": 4,
+                "champion": "Lucian",
+                "mastery": "259,743"
+            },
+            {
+                "rank": 5,
+                "champion": "Sylas",
+                "mastery": "259,442"
+            },
+            {
+                "rank": 6,
+                "champion": "Zoe",
+                "mastery": "258,125"
+            },
+            {
+                "rank": 7,
+                "champion": "Akali",
+                "mastery": "253,234"
+            },
+            {
+                "rank": 8,
+                "champion": "Irelia",
+                "mastery": "244,553"
+            },
+            {
+                "rank": 9,
+                "champion": "Ryze",
+                "mastery": "222,314"
+            },
+            {
+                "rank": 10,
+                "champion": "Yasuo",
+                "mastery": "206,839"
+            },
+            {
+                "rank": 11,
+                "champion": "Taliyah",
+                "mastery": "189,842"
+            },
+            {
+                "rank": 12,
+                "champion": "Lee Sin",
+                "mastery": "173,902"
+            },
+            {
+                "rank": 13,
+                "champion": "Yone",
+                "mastery": "159,779"
+            },
+            {
+                "rank": 14,
+                "champion": "Tristana",
+                "mastery": "134,579"
+            },
+            {
+                "rank": 15,
+                "champion": "Zed",
+                "mastery": "139,811"
+            },
+            {
+                "rank": 16,
+                "champion": "Ahri",
+                "mastery": "128,534"
+            }
+        ]
+    }
+]

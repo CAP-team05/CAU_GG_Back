@@ -1,0 +1,116 @@
+[
+    {
+        "user name": "엄아연-제텐",
+        "level": "222",
+        "solo": "bronze  - 23LP",
+        "flex": "Unranked",
+        "season_most": [
+            {
+                "name": "Nocturne",
+                "games": "3 games",
+                "kda": "6:1 ",
+                "win rate": "100%"
+            },
+            {
+                "name": "Warwick",
+                "games": "2 games",
+                "kda": "6.71:1 ",
+                "win rate": "100%"
+            },
+            {
+                "name": "Ekko",
+                "games": "2 games",
+                "kda": "8:1 ",
+                "win rate": "50%"
+            },
+            {
+                "name": "Lulu",
+                "games": "1 games",
+                "kda": "4.14:1 ",
+                "win rate": "100%"
+            }
+        ],
+        "mastery": [
+            {
+                "rank": 1,
+                "champion": "Lulu",
+                "mastery": "316,681"
+            },
+            {
+                "rank": 2,
+                "champion": "Nautilus",
+                "mastery": "45,053"
+            },
+            {
+                "rank": 3,
+                "champion": "Nami",
+                "mastery": "44,947"
+            },
+            {
+                "rank": 4,
+                "champion": "Morgana",
+                "mastery": "50,187"
+            },
+            {
+                "rank": 5,
+                "champion": "Leona",
+                "mastery": "34,436"
+            },
+            {
+                "rank": 6,
+                "champion": "Amumu",
+                "mastery": "26,119"
+            },
+            {
+                "rank": 7,
+                "champion": "Karma",
+                "mastery": "26,104"
+            },
+            {
+                "rank": 8,
+                "champion": "Yuumi",
+                "mastery": "24,335"
+            },
+            {
+                "rank": 9,
+                "champion": "Brand",
+                "mastery": "24,248"
+            },
+            {
+                "rank": 10,
+                "champion": "Vel'Koz",
+                "mastery": "20,386"
+            },
+            {
+                "rank": 11,
+                "champion": "Lux",
+                "mastery": "19,070"
+            },
+            {
+                "rank": 12,
+                "champion": "Twisted Fate",
+                "mastery": "18,634"
+            },
+            {
+                "rank": 13,
+                "champion": "Neeko",
+                "mastery": "17,784"
+            },
+            {
+                "rank": 14,
+                "champion": "Cho'Gath",
+                "mastery": "16,749"
+            },
+            {
+                "rank": 15,
+                "champion": "Nidalee",
+                "mastery": "16,441"
+            },
+            {
+                "rank": 16,
+                "champion": "Veigar",
+                "mastery": "16,127"
+            }
+        ]
+    }
+]

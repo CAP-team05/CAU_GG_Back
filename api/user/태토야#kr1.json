@@ -1,0 +1,116 @@
+[
+    {
+        "user name": "태토야-kr1",
+        "level": "268",
+        "solo": "gold 2 - 52LP",
+        "flex": "gold 2 - 12LP",
+        "season_most": [
+            {
+                "name": "Neeko",
+                "games": "5 games",
+                "kda": "1.54:1 ",
+                "win rate": "60%"
+            },
+            {
+                "name": "Zac",
+                "games": "5 games",
+                "kda": "5.56:1 ",
+                "win rate": "60%"
+            },
+            {
+                "name": "Thresh",
+                "games": "4 games",
+                "kda": "2.45:1 ",
+                "win rate": "50%"
+            },
+            {
+                "name": "Amumu",
+                "games": "3 games",
+                "kda": "3.64:1 ",
+                "win rate": "67%"
+            }
+        ],
+        "mastery": [
+            {
+                "rank": 1,
+                "champion": "Darius",
+                "mastery": "176,252"
+            },
+            {
+                "rank": 2,
+                "champion": "Amumu",
+                "mastery": "159,984"
+            },
+            {
+                "rank": 3,
+                "champion": "Ezreal",
+                "mastery": "144,520"
+            },
+            {
+                "rank": 4,
+                "champion": "Blitzcrank",
+                "mastery": "127,991"
+            },
+            {
+                "rank": 5,
+                "champion": "Ashe",
+                "mastery": "98,948"
+            },
+            {
+                "rank": 6,
+                "champion": "Garen",
+                "mastery": "81,946"
+            },
+            {
+                "rank": 7,
+                "champion": "Tristana",
+                "mastery": "62,634"
+            },
+            {
+                "rank": 8,
+                "champion": "Caitlyn",
+                "mastery": "57,686"
+            },
+            {
+                "rank": 9,
+                "champion": "Nautilus",
+                "mastery": "54,532"
+            },
+            {
+                "rank": 10,
+                "champion": "Master Yi",
+                "mastery": "50,811"
+            },
+            {
+                "rank": 11,
+                "champion": "Neeko",
+                "mastery": "47,544"
+            },
+            {
+                "rank": 12,
+                "champion": "Malphite",
+                "mastery": "48,764"
+            },
+            {
+                "rank": 13,
+                "champion": "Dr. Mundo",
+                "mastery": "42,075"
+            },
+            {
+                "rank": 14,
+                "champion": "Zac",
+                "mastery": "38,940"
+            },
+            {
+                "rank": 15,
+                "champion": "Rengar",
+                "mastery": "37,350"
+            },
+            {
+                "rank": 16,
+                "champion": "Lee Sin",
+                "mastery": "41,927"
+            }
+        ]
+    }
+]

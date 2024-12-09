@@ -58,7 +58,6 @@ def checkUser(email, password):
         all_users = {}
     
     if (email in all_users):
-        print(f"email ${email}")
         if(all_users[email]['verified'] == False):
             return False
         if(all_users[email]['password'] == password):

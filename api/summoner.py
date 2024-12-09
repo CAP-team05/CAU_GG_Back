@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests, json
+import os
 
 # getMasteryList = 
 def getMasteryList(fullname):
@@ -80,3 +81,39 @@ def summonersForEmail(email):
     info = getSummonerInfo(fullname = name)
     with open(f'api/user/{name}.json', 'w') as f:
         json.dump(info, f, ensure_ascii=False, indent=4)
+        
+    masteryForName(name)
+        
+    
+
+def masteryForName(name):
+    # 소환사 숙련도 정보 가져오기
+    info = getMasteryList(fullname=name)
+
+    # JSON 파일 경로 설정
+    file_path = f'api/user/{name.replace("-", "#")}.json'
+
+    # 파일 생성 또는 업데이트
+    if os.path.exists(file_path):
+        # 기존 파일 읽기
+        with open(file_path, 'r', encoding='utf-8') as f:
+            try:
+                existing_data = json.load(f)
+            except json.JSONDecodeError:
+                # 파일이 비어있거나 JSON 형식이 잘못된 경우
+                existing_data = []
+    else:
+        # 파일이 없으면 빈 리스트로 초기화
+        existing_data = []
+
+    # "mastery" 데이터 추가
+    if isinstance(existing_data, list) and len(existing_data) > 0:
+        # 리스트의 마지막 항목에 "mastery" 추가
+        existing_data[-1]["mastery"] = info if isinstance(info, list) else []
+    else:
+        # 데이터가 예상한 형식이 아니거나 비어있는 경우
+        existing_data = [{"mastery": info if isinstance(info, list) else []}]
+
+    # 업데이트된 데이터를 파일에 저장
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(existing_data, f, ensure_ascii=False, indent=4)

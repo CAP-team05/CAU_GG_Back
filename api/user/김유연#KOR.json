@@ -1,9 +1,116 @@
 [
     {
-        "user name": "김유연-KOR",
+        "user name": "김유연-kor",
         "level": "304",
         "solo": "Unranked",
         "flex": "bronze  - 41LP",
-        "season_most": []
+        "season_most": [
+            {
+                "name": "Vladimir",
+                "games": "8 games",
+                "kda": "2.77:1 ",
+                "win rate": "63%"
+            },
+            {
+                "name": "Lux",
+                "games": "4 games",
+                "kda": "2.04:1 ",
+                "win rate": "25%"
+            },
+            {
+                "name": "Yasuo",
+                "games": "3 games",
+                "kda": "2.25:1 ",
+                "win rate": "67%"
+            },
+            {
+                "name": "Katarina",
+                "games": "3 games",
+                "kda": "2.8:1 ",
+                "win rate": "33%"
+            }
+        ],
+        "mastery": [
+            {
+                "rank": 1,
+                "champion": "Yasuo",
+                "mastery": "156,885"
+            },
+            {
+                "rank": 2,
+                "champion": "Katarina",
+                "mastery": "143,357"
+            },
+            {
+                "rank": 3,
+                "champion": "Lee Sin",
+                "mastery": "136,165"
+            },
+            {
+                "rank": 4,
+                "champion": "Zed",
+                "mastery": "114,356"
+            },
+            {
+                "rank": 5,
+                "champion": "Irelia",
+                "mastery": "101,276"
+            },
+            {
+                "rank": 6,
+                "champion": "Akali",
+                "mastery": "82,223"
+            },
+            {
+                "rank": 7,
+                "champion": "Sylas",
+                "mastery": "62,274"
+            },
+            {
+                "rank": 8,
+                "champion": "Talon",
+                "mastery": "53,647"
+            },
+            {
+                "rank": 9,
+                "champion": "Vladimir",
+                "mastery": "49,587"
+            },
+            {
+                "rank": 10,
+                "champion": "Blitzcrank",
+                "mastery": "47,101"
+            },
+            {
+                "rank": 11,
+                "champion": "Ezreal",
+                "mastery": "40,714"
+            },
+            {
+                "rank": 12,
+                "champion": "Kai'Sa",
+                "mastery": "38,485"
+            },
+            {
+                "rank": 13,
+                "champion": "Samira",
+                "mastery": "36,957"
+            },
+            {
+                "rank": 14,
+                "champion": "Viego",
+                "mastery": "35,190"
+            },
+            {
+                "rank": 15,
+                "champion": "Lux",
+                "mastery": "29,154"
+            },
+            {
+                "rank": 16,
+                "champion": "Riven",
+                "mastery": "25,076"
+            }
+        ]
     }
 ]

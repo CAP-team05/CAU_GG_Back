@@ -1,9 +1,6 @@
 import json
 import os
 
-# Load all users from userDB.json
-with open('api/userDB.json', 'r', encoding='utf-8') as f:
-    all_users = json.load(f)
 
 # Define solo rank priority for sorting
 solo_rank_priority = [
@@ -40,6 +37,14 @@ def ranking(major: str):
     Returns:
         List[Dict]: A list of ranked users with their solo rank.
     """
+    
+    # userDB.json 파일 경로
+    file_path = 'api/userDB.json'
+    
+    # userDB.json에서 데이터 읽기
+    with open(file_path, 'r', encoding='utf-8') as f:
+        all_users = json.load(f)
+    
     same_major = []
 
     # Filter users by major
@@ -54,10 +59,13 @@ def ranking(major: str):
                     user_details = json.load(user_file)
                     # Extract solo rank from the user's JSON file
                     solo_rank = user_details[0].get('solo', 'unknown')
+                    most_champion = user_details[0].get('mastery', [])
+                    most = most_champion[0].get('champion', 'unknown') if most_champion else 'unknown'
                     same_major.append({
                         "email": email,
                         "nickname": nickname,
-                        "solo_rank": solo_rank
+                        "solo_rank": solo_rank,
+                        "most": most
                     })
     
     # Sort users by solo rank using parsed rank details

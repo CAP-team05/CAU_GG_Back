@@ -1,0 +1,91 @@
+[
+    {
+        "user name": "돈절래-KR836",
+        "level": "122",
+        "solo": "Unranked",
+        "flex": "Unranked",
+        "season_most": [],
+        "mastery": [
+            {
+                "rank": 1,
+                "champion": "Jinx",
+                "mastery": "207,591"
+            },
+            {
+                "rank": 2,
+                "champion": "Jhin",
+                "mastery": "145,126"
+            },
+            {
+                "rank": 3,
+                "champion": "Tristana",
+                "mastery": "77,197"
+            },
+            {
+                "rank": 4,
+                "champion": "Vayne",
+                "mastery": "73,571"
+            },
+            {
+                "rank": 5,
+                "champion": "Twitch",
+                "mastery": "56,542"
+            },
+            {
+                "rank": 6,
+                "champion": "Ashe",
+                "mastery": "54,132"
+            },
+            {
+                "rank": 7,
+                "champion": "Miss Fortune",
+                "mastery": "46,037"
+            },
+            {
+                "rank": 8,
+                "champion": "Sivir",
+                "mastery": "37,951"
+            },
+            {
+                "rank": 9,
+                "champion": "Kog'Maw",
+                "mastery": "31,180"
+            },
+            {
+                "rank": 10,
+                "champion": "Xayah",
+                "mastery": "30,185"
+            },
+            {
+                "rank": 11,
+                "champion": "Caitlyn",
+                "mastery": "29,814"
+            },
+            {
+                "rank": 12,
+                "champion": "Ezreal",
+                "mastery": "27,297"
+            },
+            {
+                "rank": 13,
+                "champion": "Janna",
+                "mastery": "26,915"
+            },
+            {
+                "rank": 14,
+                "champion": "Kai'Sa",
+                "mastery": "20,636"
+            },
+            {
+                "rank": 15,
+                "champion": "Dr. Mundo",
+                "mastery": "18,441"
+            },
+            {
+                "rank": 16,
+                "champion": "Lulu",
+                "mastery": "18,324"
+            }
+        ]
+    }
+]

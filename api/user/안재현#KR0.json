@@ -1,9 +1,116 @@
 [
     {
-        "user name": "안재현-KR0",
+        "user name": "안재현-kr0",
         "level": "246",
         "solo": "emerald 1 - 75LP",
         "flex": "platinum 1 - 35LP",
-        "season_most": []
+        "season_most": [
+            {
+                "name": "Vayne",
+                "games": "9 games",
+                "kda": "3.33:1 ",
+                "win rate": "78%"
+            },
+            {
+                "name": "Fiora",
+                "games": "6 games",
+                "kda": "2.14:1 ",
+                "win rate": "50%"
+            },
+            {
+                "name": "Cassiopeia",
+                "games": "3 games",
+                "kda": "4.67:1 ",
+                "win rate": "67%"
+            },
+            {
+                "name": "Jax",
+                "games": "2 games",
+                "kda": "6.33:1 ",
+                "win rate": "100%"
+            }
+        ],
+        "mastery": [
+            {
+                "rank": 1,
+                "champion": "Cassiopeia",
+                "mastery": "184,788"
+            },
+            {
+                "rank": 2,
+                "champion": "Draven",
+                "mastery": "147,556"
+            },
+            {
+                "rank": 3,
+                "champion": "Kai'Sa",
+                "mastery": "108,925"
+            },
+            {
+                "rank": 4,
+                "champion": "Sivir",
+                "mastery": "107,087"
+            },
+            {
+                "rank": 5,
+                "champion": "Vayne",
+                "mastery": "105,553"
+            },
+            {
+                "rank": 6,
+                "champion": "Twitch",
+                "mastery": "92,760"
+            },
+            {
+                "rank": 7,
+                "champion": "Twisted Fate",
+                "mastery": "81,941"
+            },
+            {
+                "rank": 8,
+                "champion": "Veigar",
+                "mastery": "76,376"
+            },
+            {
+                "rank": 9,
+                "champion": "Varus",
+                "mastery": "45,420"
+            },
+            {
+                "rank": 10,
+                "champion": "Ashe",
+                "mastery": "38,359"
+            },
+            {
+                "rank": 11,
+                "champion": "Ezreal",
+                "mastery": "36,729"
+            },
+            {
+                "rank": 12,
+                "champion": "Caitlyn",
+                "mastery": "34,540"
+            },
+            {
+                "rank": 13,
+                "champion": "Irelia",
+                "mastery": "33,657"
+            },
+            {
+                "rank": 14,
+                "champion": "Tristana",
+                "mastery": "32,248"
+            },
+            {
+                "rank": 15,
+                "champion": "Kog'Maw",
+                "mastery": "29,234"
+            },
+            {
+                "rank": 16,
+                "champion": "Kalista",
+                "mastery": "27,316"
+            }
+        ]
     }
 ]

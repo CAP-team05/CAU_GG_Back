@@ -8,6 +8,7 @@ from functools import wraps
 import userHandler as userHandler
 import rankingHandler as rankingHandler
 import communityHandler as cH
+import os
 from datetime import datetime
 
 app = Flask(__name__)
@@ -58,12 +59,43 @@ def summoners(name):
         mimetype='application/json'
     )
 
-# 소환사 숙련도 정보
+
 @app.route('/mastery/<name>')
 def masteries(name):
-    info = summoner.getMasteryList(fullname = name)
+    # 소환사 숙련도 정보 가져오기
+    info = summoner.getMasteryList(fullname=name)
+
+    # JSON 파일 경로 설정
+    file_path = f'api/user/{name.replace("-", "#")}.json'
+
+    # 파일 생성 또는 업데이트
+    if os.path.exists(file_path):
+        # 기존 파일 읽기
+        with open(file_path, 'r', encoding='utf-8') as f:
+            try:
+                existing_data = json.load(f)
+            except json.JSONDecodeError:
+                # 파일이 비어있거나 JSON 형식이 잘못된 경우
+                existing_data = []
+    else:
+        # 파일이 없으면 빈 리스트로 초기화
+        existing_data = []
+
+    # "mastery" 데이터 추가
+    if isinstance(existing_data, list) and len(existing_data) > 0:
+        # 리스트의 마지막 항목에 "mastery" 추가
+        existing_data[-1]["mastery"] = info if isinstance(info, list) else []
+    else:
+        # 데이터가 예상한 형식이 아니거나 비어있는 경우
+        existing_data = [{"mastery": info if isinstance(info, list) else []}]
+
+    # 업데이트된 데이터를 파일에 저장
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(existing_data, f, ensure_ascii=False, indent=4)
+
+    # API 응답 반환
     return app.response_class(
-        response=json.dumps(info, ensure_ascii = False, indent=4),
+        response=json.dumps(existing_data, ensure_ascii=False, indent=4),
         mimetype='application/json'
     )
 
@@ -84,12 +116,12 @@ def register():
     major = data['major']
     print(data)
     userHandler.insertUser(email, password, nickname, major, False)
+    summoner.summonersForEmail(email)
 
     try:
         verification_link = f"http://127.0.0.1:8080/verify?email={email}"
         print(verification_link)
         send_verification_email(email, verification_link)
-
         return {"message": "User registered successfully. Verification email sent", "nickname": nickname}
     except Exception as e:
         return {"error": str(e)}
